@@ -70,8 +70,8 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="left">
               <div className="flex flex-col space-y-4 p-4">
-                <div className="flex items-center mb-4">
-                  <Link href="/" className="flex items-center gap-2 font-bold">
+                <Link href="/" className="flex items-center mb-4">
+                  <div className="flex items-center gap-2 font-bold">
                     <Image
                       src="https://picsum.photos/40/40"
                       alt="Vision Academy Logo"
@@ -81,8 +81,8 @@ export function Header() {
                       data-ai-hint="logo"
                     />
                     <span>Vision Academy Silchar</span>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
                 {navItems.map(item => (
                   <Link
                     key={item.href}
