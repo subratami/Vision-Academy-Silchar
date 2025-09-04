@@ -30,7 +30,7 @@ export const courses = [
       'Comprehensive coaching for Bank probationary officer (PO) and clerk exams. We cover all subjects and provide extensive mock tests.',
     schedule: 'Flexible timings, new batches every month',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=1',
       hint: 'banking finance',
     },
   },
@@ -40,7 +40,7 @@ export const courses = [
       'Preparation for Staff Selection Commission (SSC) exams like CGL, CHSL, and more. Our curriculum is aligned with the latest exam patterns.',
     schedule: 'Morning and evening batches available',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=2',
       hint: 'government building',
     },
   },
@@ -50,7 +50,7 @@ export const courses = [
       'Intensive coaching for MBA entrance exams like CAT and MAT. Achieve your dream of getting into a top business school.',
     schedule: 'Weekend and weekday batches',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=3',
       hint: 'business students',
     },
   },
@@ -60,7 +60,7 @@ export const courses = [
       'Prepare for the Common Law Admission Test (CLAT) with our expert faculty and comprehensive study material.',
     schedule: 'After-school and weekend programs',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=4',
       hint: 'law justice',
     },
   },
@@ -70,7 +70,7 @@ export const courses = [
       'Dedicated training for National Defence Academy (NDA) and Combined Defence Services (CDS) examinations. Physical training support included.',
     schedule: 'Early morning batches',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=5',
       hint: 'military soldiers',
     },
   },
@@ -80,7 +80,7 @@ export const courses = [
       'Specialized coaching for various Railway Recruitment Board (RRB) and Life Insurance Corporation (LIC) exams.',
     schedule: 'Flexible batch timings',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=6',
       hint: 'railway train',
     },
   },
@@ -90,44 +90,9 @@ export const courses = [
       'Focused coaching for the Assam Direct Recruitment Examination (ADRE) to help you secure a government job in Assam.',
     schedule: 'Special batches for ADRE',
     image: {
-      src: 'https://picsum.photos/600/400',
+      src: 'https://picsum.photos/600/400?random=7',
       hint: 'assam landscape',
     },
-  },
-];
-
-export const staff = [
-  {
-    name: 'Mr. Rakesh Sharma',
-    title: 'Founder & Head of Academy',
-    bio: 'With over 13 years of experience in coaching for competitive exams, Mr. Sharma founded Vision Academy Silchar to provide quality education and guidance to aspirants.',
-    qualifications: 'M.Sc. in Mathematics',
-    avatar: 'https://picsum.photos/100/100',
-    hint: 'professional man',
-  },
-  {
-    name: 'Mrs. Sunita Verma',
-    title: 'Lead Instructor, Bank & SSC',
-    bio: 'Sunita is an expert in Quantitative Aptitude and Reasoning. She has helped hundreds of students crack banking and SSC exams.',
-    qualifications: 'M.Com, B.Ed',
-    avatar: 'https://picsum.photos/100/100',
-    hint: 'professional woman',
-  },
-  {
-    name: 'Mr. Anil Kumar',
-    title: 'Instructor, CAT/MAT & CLAT',
-    bio: 'Anil specializes in Verbal Ability and Reading Comprehension. His unique teaching methods make learning English a breeze for students.',
-    qualifications: 'M.A. in English Literature',
-    avatar: 'https://picsum.photos/100/100',
-    hint: 'smiling man',
-  },
-  {
-    name: 'Mr. Sanjay Singh',
-    title: 'Instructor, Defence Exams',
-    bio: 'A retired army officer, Sanjay brings his real-world experience to guide students preparing for NDA and CDS examinations.',
-    qualifications: 'B.Sc, Ex-Army Officer',
-    avatar: 'https://picsum.photos/100/100',
-    hint: 'man glasses',
   },
 ];
 

@@ -97,7 +97,7 @@ export default function Home() {
                   <CardHeader className="p-0">
                     <div className="relative aspect-video">
                       <Image
-                        src={`${course.image.src}?random=${index}`}
+                        src={course.image.src}
                         alt={course.title}
                         fill
                         className="rounded-t-lg object-cover"

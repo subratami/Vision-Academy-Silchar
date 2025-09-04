@@ -29,7 +29,7 @@ export default function CoursesPage() {
             >
               <div className="relative aspect-video">
                 <Image
-                  src={`${course.image.src}?random=${index}`}
+                  src={course.image.src}
                   alt={course.title}
                   fill
                   className="object-cover"
