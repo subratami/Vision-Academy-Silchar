@@ -13,7 +13,13 @@ import {
   HelpCircle,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 
 const navItems = [
@@ -30,19 +36,17 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="https://picsum.photos/40/40"
-              alt="Vision Academy Logo"
-              width={32}
-              height={32}
-              className="rounded-full"
-              data-ai-hint="logo"
-            />
-            <span className="font-bold">Vision Academy Silchar</span>
-          </Link>
-        </div>
+        <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="https://picsum.photos/40/40"
+            alt="Vision Academy Logo"
+            width={32}
+            height={32}
+            className="rounded-full"
+            data-ai-hint="logo"
+          />
+          <span className="font-bold">Vision Academy Silchar</span>
+        </Link>
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
             {navItems.map(item => (
@@ -68,8 +72,14 @@ export function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="left">
+                <SheetHeader>
+                  <SheetTitle className="sr-only">Menu</SheetTitle>
+                </SheetHeader>
                 <div className="flex flex-col space-y-4 p-4">
-                  <Link href="/" className="flex items-center mb-4 gap-2">
+                  <Link
+                    href="/"
+                    className="flex items-center mb-4 gap-2"
+                  >
                     <Image
                       src="https://picsum.photos/40/40"
                       alt="Vision Academy Logo"
