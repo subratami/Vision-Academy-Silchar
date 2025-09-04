@@ -1,3 +1,4 @@
+
 export const announcements = [
   {
     id: 1,
@@ -30,7 +31,7 @@ export const courses = [
     schedule: 'Flexible timings, new batches every month',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'bank exam',
+      hint: 'banking finance',
     },
   },
   {
@@ -40,7 +41,7 @@ export const courses = [
     schedule: 'Morning and evening batches available',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'government exam',
+      hint: 'government building',
     },
   },
   {
@@ -50,7 +51,7 @@ export const courses = [
     schedule: 'Weekend and weekday batches',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'mba entrance',
+      hint: 'business students',
     },
   },
   {
@@ -70,7 +71,7 @@ export const courses = [
     schedule: 'Early morning batches',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'defence academy',
+      hint: 'military training',
     },
   },
   {
@@ -80,7 +81,7 @@ export const courses = [
     schedule: 'Flexible batch timings',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'railway recruitment',
+      hint: 'train station',
     },
   },
   {
@@ -90,7 +91,7 @@ export const courses = [
     schedule: 'Special batches for ADRE',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'assam recruitment',
+      hint: 'assam tea',
     },
   },
 ];
