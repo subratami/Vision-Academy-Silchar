@@ -30,7 +30,7 @@ export const courses = [
       'Comprehensive coaching for Bank probationary officer (PO) and clerk exams. We cover all subjects and provide extensive mock tests.',
     schedule: 'Flexible timings, new batches every month',
     image: {
-      src: 'https://picsum.photos/600/400?random=1',
+      src: 'https://picsum.photos/600/400?bank',
       hint: 'banking finance',
     },
   },
@@ -40,7 +40,7 @@ export const courses = [
       'Preparation for Staff Selection Commission (SSC) exams like CGL, CHSL, and more. Our curriculum is aligned with the latest exam patterns.',
     schedule: 'Morning and evening batches available',
     image: {
-      src: 'https://picsum.photos/600/400?random=2',
+      src: 'https://picsum.photos/600/400?government',
       hint: 'government building',
     },
   },
@@ -50,7 +50,7 @@ export const courses = [
       'Intensive coaching for MBA entrance exams like CAT and MAT. Achieve your dream of getting into a top business school.',
     schedule: 'Weekend and weekday batches',
     image: {
-      src: 'https://picsum.photos/600/400?random=3',
+      src: 'https://picsum.photos/600/400?business',
       hint: 'business students',
     },
   },
@@ -60,7 +60,7 @@ export const courses = [
       'Prepare for the Common Law Admission Test (CLAT) with our expert faculty and comprehensive study material.',
     schedule: 'After-school and weekend programs',
     image: {
-      src: 'https://picsum.photos/600/400?random=4',
+      src: 'https://picsum.photos/600/400?law',
       hint: 'law justice',
     },
   },
@@ -70,7 +70,7 @@ export const courses = [
       'Dedicated training for National Defence Academy (NDA) and Combined Defence Services (CDS) examinations. Physical training support included.',
     schedule: 'Early morning batches',
     image: {
-      src: 'https://picsum.photos/600/400?random=5',
+      src: 'https://picsum.photos/600/400?military',
       hint: 'military soldiers',
     },
   },
@@ -80,7 +80,7 @@ export const courses = [
       'Specialized coaching for various Railway Recruitment Board (RRB) and Life Insurance Corporation (LIC) exams.',
     schedule: 'Flexible batch timings',
     image: {
-      src: 'https://picsum.photos/600/400?random=6',
+      src: 'https://picsum.photos/600/400?train',
       hint: 'railway train',
     },
   },
@@ -90,7 +90,7 @@ export const courses = [
       'Focused coaching for the Assam Direct Recruitment Examination (ADRE) to help you secure a government job in Assam.',
     schedule: 'Special batches for ADRE',
     image: {
-      src: 'https://picsum.photos/600/400?random=7',
+      src: 'https://picsum.photos/600/400?assam',
       hint: 'assam landscape',
     },
   },
@@ -113,6 +113,6 @@ Courses Offered:
 Contact Information:
 - Location: 2nd Floor, Kusum Mansion, Hospital Road, Silchar-1
 - Phone: 9401811385, 8133868186
-- Email: admissions@visionacademy.edu
+- Email: visionacademy.silchar@gmail.com
 For inquiries about enrollment and batch timings, please call us.
 `;

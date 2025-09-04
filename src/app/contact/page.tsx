@@ -44,7 +44,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold">Email Us</h3>
               <p className="text-muted-foreground">
-                admissions@visionacademy.edu
+                visionacademy.silchar@gmail.com
               </p>
             </CardContent>
           </Card>
