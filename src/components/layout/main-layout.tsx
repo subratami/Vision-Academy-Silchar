@@ -1,68 +1,13 @@
-'use client';
-
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import type { ReactNode } from 'react';
-import {
-  BookOpen,
-  Home,
-  Info,
-  Mail,
-  Users,
-  GraduationCap,
-  HelpCircle,
-} from 'lucide-react';
-import {
-  SidebarProvider,
-  Sidebar,
-  SidebarMenu,
-  SidebarMenuItem,
-  SidebarMenuButton,
-  SidebarInset,
-  SidebarHeader,
-  SidebarFooter,
-} from '@/components/ui/sidebar';
-
-const navItems = [
-  { href: '/', label: 'Home', icon: Home },
-  { href: '/about', label: 'About Us', icon: Info },
-  { href: '/courses', label: 'Courses', icon: BookOpen },
-  { href: '/staff', label: 'Our Staff', icon: Users },
-  { href: '/contact', label: 'Contact', icon: Mail },
-  { href: '/faq', label: 'FAQ', icon: HelpCircle },
-];
+import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
 
 export default function MainLayout({ children }: { children: ReactNode }) {
-  const pathname = usePathname();
-
   return (
-    <SidebarProvider>
-      <Sidebar>
-        <SidebarHeader>
-          <div className="flex items-center gap-2 p-2">
-            <GraduationCap className="w-8 h-8 text-primary" />
-            <h1 className="text-xl font-bold font-headline">Vision Academy</h1>
-          </div>
-        </SidebarHeader>
-        <SidebarMenu>
-          {navItems.map(item => (
-            <SidebarMenuItem key={item.href}>
-              <SidebarMenuButton
-                asChild
-                isActive={pathname === item.href}
-                tooltip={item.label}
-              >
-                <Link href={item.href}>
-                  <item.icon />
-                  <span>{item.label}</span>
-                </Link>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-          ))}
-        </SidebarMenu>
-        <SidebarFooter />
-      </Sidebar>
-      <SidebarInset>{children}</SidebarInset>
-    </SidebarProvider>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <div className="flex-1">{children}</div>
+      <Footer />
+    </div>
   );
 }
