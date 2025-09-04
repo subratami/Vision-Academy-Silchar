@@ -61,7 +61,7 @@ export const courses = [
     schedule: 'After-school and weekend programs',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'law books',
+      hint: 'law justice',
     },
   },
   {
@@ -71,7 +71,7 @@ export const courses = [
     schedule: 'Early morning batches',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'military training',
+      hint: 'military soldiers',
     },
   },
   {
@@ -81,7 +81,7 @@ export const courses = [
     schedule: 'Flexible batch timings',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'train station',
+      hint: 'railway train',
     },
   },
   {
@@ -91,7 +91,7 @@ export const courses = [
     schedule: 'Special batches for ADRE',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'assam tea',
+      hint: 'assam landscape',
     },
   },
 ];
@@ -150,7 +150,4 @@ Contact Information:
 - Phone: 9401811385, 8133868186
 - Email: admissions@visionacademy.edu
 For inquiries about enrollment and batch timings, please call us.
-
-Staff:
-Our team is composed of experienced educators with a deep understanding of competitive exam patterns. They are dedicated to providing the best guidance to our students.
 `;
