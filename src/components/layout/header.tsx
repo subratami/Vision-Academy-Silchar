@@ -40,7 +40,7 @@ export function Header() {
               className="rounded-full"
               data-ai-hint="logo"
             />
-            Vision Academy Silchar
+            <span>Vision Academy Silchar</span>
           </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -78,7 +78,7 @@ export function Header() {
                       className="rounded-full"
                       data-ai-hint="logo"
                     />
-                    Vision Academy Silchar
+                    <span>Vision Academy Silchar</span>
                   </Link>
                 </div>
                 {navItems.map(item => (
