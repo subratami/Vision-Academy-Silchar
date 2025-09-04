@@ -1,4 +1,4 @@
-import { GraduationCap } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -6,7 +6,14 @@ export function Footer() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-2">
-            <GraduationCap className="h-6 w-6 text-primary" />
+            <Image
+              src="https://picsum.photos/40/40"
+              alt="Vision Academy Logo"
+              width={24}
+              height={24}
+              className="rounded-full"
+              data-ai-hint="logo"
+            />
             <p className="text-lg font-bold">Vision Academy</p>
           </div>
           <p className="text-sm text-muted-foreground">

@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   BookOpen,
   Home,
@@ -30,8 +31,15 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <div className="mr-4 flex items-center">
-          <GraduationCap className="h-6 w-6 mr-2" />
-          <Link href="/" className="font-bold">
+          <Link href="/" className="flex items-center gap-2 font-bold">
+            <Image
+              src="https://picsum.photos/40/40"
+              alt="Vision Academy Logo"
+              width={32}
+              height={32}
+              className="rounded-full"
+              data-ai-hint="logo"
+            />
             Vision Academy
           </Link>
         </div>
@@ -61,8 +69,15 @@ export function Header() {
             <SheetContent side="left">
               <div className="flex flex-col space-y-4 p-4">
                 <div className="flex items-center mb-4">
-                  <GraduationCap className="h-6 w-6 mr-2" />
-                  <Link href="/" className="font-bold">
+                  <Link href="/" className="flex items-center gap-2 font-bold">
+                    <Image
+                      src="https://picsum.photos/40/40"
+                      alt="Vision Academy Logo"
+                      width={32}
+                      height={32}
+                      className="rounded-full"
+                      data-ai-hint="logo"
+                    />
                     Vision Academy
                   </Link>
                 </div>
