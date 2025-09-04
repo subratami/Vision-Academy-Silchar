@@ -94,11 +94,16 @@ export default function Home() {
 
           {/* About Us Section */}
           <section className="space-y-12">
+            <div className="text-center">
+              <h2 className="text-3xl font-bold tracking-tight font-headline">
+                About Us
+              </h2>
+            </div>
             <div className="grid gap-8 md:grid-cols-2 md:gap-16 items-center">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight font-headline">
+                <h3 className="text-2xl font-bold tracking-tight font-headline">
                   The Heart of Vision Academy Silchar
-                </h2>
+                </h3>
                 <p className="mt-4 text-lg text-muted-foreground">
                   We are a premier institution in Barak Valley, dedicated to
                   providing top-tier coaching for competitive exams, empowering
