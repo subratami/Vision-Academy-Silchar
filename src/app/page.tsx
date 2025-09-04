@@ -1,3 +1,5 @@
+
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Bell, ArrowRight } from 'lucide-react';
@@ -10,6 +12,23 @@ import {
   CardDescription,
 } from '@/components/ui/card';
 import { announcements, courses } from '@/lib/constants';
+import { useEffect, useState } from 'react';
+
+function AnnouncementDate({ date }: { date: string }) {
+  const [formattedDate, setFormattedDate] = useState('');
+
+  useEffect(() => {
+    setFormattedDate(
+      new Date(date).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    );
+  }, [date]);
+
+  return <CardDescription>{formattedDate}</CardDescription>;
+}
 
 export default function Home() {
   return (
@@ -54,16 +73,7 @@ export default function Home() {
                     <Bell className="w-6 h-6 text-primary" />
                     <div>
                       <CardTitle>{announcement.title}</CardTitle>
-                      <CardDescription>
-                        {new Date(announcement.date).toLocaleDateString(
-                          'en-US',
-                          {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric',
-                          }
-                        )}
-                      </CardDescription>
+                      <AnnouncementDate date={announcement.date} />
                     </div>
                   </CardHeader>
                   <CardContent>
