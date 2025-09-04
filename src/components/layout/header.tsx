@@ -24,7 +24,6 @@ import { Menu } from 'lucide-react';
 
 const navItems = [
   { href: '/', label: 'Home', icon: Home },
-  { href: '/about', label: 'About Us', icon: Info },
   { href: '/courses', label: 'Courses', icon: BookOpen },
   { href: '/contact', label: 'Contact', icon: Mail },
   { href: '/faq', label: 'FAQ', icon: HelpCircle },
@@ -75,10 +74,7 @@ export function Header() {
                   <SheetTitle className="sr-only">Menu</SheetTitle>
                 </SheetHeader>
                 <div className="flex flex-col space-y-4 p-4">
-                  <Link
-                    href="/"
-                    className="flex items-center mb-4 gap-2"
-                  >
+                  <Link href="/" className="flex items-center mb-4 gap-2">
                     <Image
                       src="https://picsum.photos/40/40"
                       alt="Vision Academy Logo"
