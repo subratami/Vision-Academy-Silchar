@@ -31,16 +31,18 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <div className="mr-4 flex items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="https://picsum.photos/40/40"
-              alt="Vision Academy Logo"
-              width={32}
-              height={32}
-              className="rounded-full"
-              data-ai-hint="logo"
-            />
-            <span className="font-bold">Vision Academy Silchar</span>
+          <Link href="/">
+            <div className="flex items-center gap-2">
+              <Image
+                src="https://picsum.photos/40/40"
+                alt="Vision Academy Logo"
+                width={32}
+                height={32}
+                className="rounded-full"
+                data-ai-hint="logo"
+              />
+              <span className="font-bold">Vision Academy Silchar</span>
+            </div>
           </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
