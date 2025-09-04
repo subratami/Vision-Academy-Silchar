@@ -14,10 +14,10 @@ export function Footer() {
               className="rounded-full"
               data-ai-hint="logo"
             />
-            <p className="text-lg font-bold">Vision Academy</p>
+            <p className="text-lg font-bold">Vision Academy Silchar</p>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Vision Academy. All rights reserved.
+            © {new Date().getFullYear()} Vision Academy Silchar. All rights reserved.
           </p>
         </div>
       </div>

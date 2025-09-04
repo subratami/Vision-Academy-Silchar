@@ -29,7 +29,7 @@ export default function Home() {
             Your Gateway to a Successful Career
           </h1>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
-            Welcome to Vision Academy, the No. 1 coaching center in Barak
+            Welcome to Vision Academy Silchar, the No. 1 coaching center in Barak
             Valley with 13 years of excellence in competitive exam preparation.
           </p>
           <Button asChild size="lg">

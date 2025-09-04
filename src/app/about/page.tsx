@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="grid gap-8 md:grid-cols-2 md:gap-16 items-center">
           <div>
             <h1 className="text-4xl font-bold tracking-tight font-headline">
-              The Heart of Vision Academy
+              The Heart of Vision Academy Silchar
             </h1>
             <p className="mt-4 text-lg text-muted-foreground">
               We are a premier institution in Barak Valley, dedicated to
@@ -49,7 +49,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                With 13 years of excellence, Vision Academy has guided over
+                With 13 years of excellence, Vision Academy Silchar has guided over
                 700+ students to government jobs and 300+ to top MBA
                 colleges.
               </p>

@@ -99,7 +99,7 @@ export const staff = [
   {
     name: 'Mr. Rakesh Sharma',
     title: 'Founder & Head of Academy',
-    bio: 'With over 13 years of experience in coaching for competitive exams, Mr. Sharma founded Vision Academy to provide quality education and guidance to aspirants.',
+    bio: 'With over 13 years of experience in coaching for competitive exams, Mr. Sharma founded Vision Academy Silchar to provide quality education and guidance to aspirants.',
     qualifications: 'M.Sc. in Mathematics',
     avatar: 'https://picsum.photos/100/100',
     hint: 'professional man',
@@ -132,7 +132,7 @@ export const staff = [
 
 export const websiteContentForFaq = `
 About Us:
-Vision Academy is a premier institution in Barak Valley dedicated to providing top-tier coaching for competitive government and entrance exams. Our mission is to empower aspirants with the knowledge and skills needed to secure their dream job or admission. Founded 13 years ago, the academy has a proven track record of success with over 700+ students placed in government sectors and 300+ admissions to MBA programs through CAT/MAT. Our core values are Excellence, Dedication, and Student Success. We believe in fostering a supportive learning environment where students can achieve their full potential.
+Vision Academy Silchar is a premier institution in Barak Valley dedicated to providing top-tier coaching for competitive government and entrance exams. Our mission is to empower aspirants with the knowledge and skills needed to secure their dream job or admission. Founded 13 years ago, the academy has a proven track record of success with over 700+ students placed in government sectors and 300+ admissions to MBA programs through CAT/MAT. Our core values are Excellence, Dedication, and Student Success. We believe in fostering a supportive learning environment where students can achieve their full potential.
 
 Courses Offered:
 - Bank Jobs: Coaching for Bank PO and Clerk exams.
