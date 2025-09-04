@@ -4,8 +4,9 @@ import MainLayout from '@/components/layout/main-layout';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Vision Academy Hub',
-  description: 'A professional informational website for Vision Academy',
+  title: 'Vision Academy',
+  description:
+    'No. 1 Coaching Center in Barak Valley for competitive exams.',
 };
 
 export default function RootLayout({

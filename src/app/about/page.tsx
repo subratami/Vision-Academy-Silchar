@@ -12,9 +12,9 @@ export default function AboutPage() {
               The Heart of Vision Academy
             </h1>
             <p className="mt-4 text-lg text-muted-foreground">
-              We are a premier institution dedicated to providing top-tier
-              education in the field of technology, empowering the next
-              generation of innovators, developers, and tech leaders.
+              We are a premier institution in Barak Valley, dedicated to
+              providing top-tier coaching for competitive exams, empowering
+              aspirants to achieve their career goals.
             </p>
           </div>
           <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
@@ -23,7 +23,7 @@ export default function AboutPage() {
               alt="Team working together"
               fill
               className="object-cover"
-              data-ai-hint="team collaboration"
+              data-ai-hint="students classroom"
             />
           </div>
         </div>
@@ -36,9 +36,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                To empower students with the skills and knowledge needed to
-                excel in a rapidly evolving digital world through hands-on,
-                project-based learning.
+                To empower students with the knowledge and skills needed to
+                excel in competitive exams through expert guidance and
+                comprehensive study materials.
               </p>
             </CardContent>
           </Card>
@@ -49,9 +49,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Founded in 2010 by Dr. Evelyn Reed, the academy has grown from
-                a small group of educators to a thriving community of
-                learners and experts.
+                With 13 years of excellence, Vision Academy has guided over
+                700+ students to government jobs and 300+ to top MBA
+                colleges.
               </p>
             </CardContent>
           </Card>
@@ -62,9 +62,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                We believe in Excellence, Innovation, and Community, fostering
-                a supportive environment where students achieve their full
-                potential.
+                We believe in Excellence, Dedication, and Student Success,
+                fostering a supportive environment for aspirants to achieve
+                their potential.
               </p>
             </CardContent>
           </Card>

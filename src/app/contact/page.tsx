@@ -11,7 +11,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
             We're here to help. Reach out to us with any questions or for
-            more information about our programs.
+            more information about our coaching programs.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-3">
@@ -22,9 +22,9 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold">Our Location</h3>
               <p className="text-muted-foreground">
-                123 Tech Avenue
+                2nd Floor, Kusum Mansion, Hospital Road
                 <br />
-                Innovation City, 54321
+                Silchar-1, Barak Valley
               </p>
             </CardContent>
           </Card>
@@ -34,7 +34,7 @@ export default function ContactPage() {
                 <Phone className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold">Call Us</h3>
-              <p className="text-muted-foreground">(123) 456-7890</p>
+              <p className="text-muted-foreground">9401811385 / 8133868186</p>
             </CardContent>
           </Card>
           <Card className="text-center p-6">

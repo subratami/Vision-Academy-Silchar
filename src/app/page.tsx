@@ -22,15 +22,15 @@ export default function Home() {
           fill
           className="object-cover opacity-20"
           priority
-          data-ai-hint="university campus"
+          data-ai-hint="classroom students"
         />
         <div className="relative z-10 container px-4 md:px-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 font-headline text-foreground">
-            Empowering the Next Generation of Innovators
+            Your Gateway to a Successful Career
           </h1>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
-            Welcome to Vision Academy, where we nurture talent and foster
-            innovation through world-class tech education.
+            Welcome to Vision Academy, the No. 1 coaching center in Barak
+            Valley with 13 years of excellence in competitive exam preparation.
           </p>
           <Button asChild size="lg">
             <Link href="/courses">
@@ -79,7 +79,7 @@ export default function Home() {
           {/* Featured Courses Section */}
           <section>
             <h2 className="text-3xl font-bold tracking-tight mb-6 font-headline">
-              Featured Courses
+              Our Coaching Programs
             </h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {courses.slice(0, 3).map((course, index) => (

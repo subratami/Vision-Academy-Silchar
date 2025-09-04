@@ -1,120 +1,130 @@
 export const announcements = [
   {
     id: 1,
-    title: 'Enrollment for Fall 2024 is Now Open!',
+    title: 'Admissions for 2024-25 Batch are Open!',
     date: '2024-08-01',
     content:
-      'We are excited to announce that enrollment for the fall semester has officially begun. Explore our new courses and secure your spot today.',
+      'We are excited to announce that enrollment for our new batches has officially begun. Explore our courses and secure your spot today.',
   },
   {
     id: 2,
-    title: 'New Course: Advanced AI & Machine Learning',
+    title: 'New Batches for Banking & SSC Exams',
     date: '2024-07-25',
     content:
-      'Dive into the world of artificial intelligence with our brand-new advanced course. Limited seats available.',
+      'Fresh batches for Banking and SSC exam preparations are starting soon. Limited seats available.',
   },
   {
     id: 3,
-    title: 'Summer Break Schedule',
+    title: 'Holiday Schedule',
     date: '2024-07-15',
     content:
-      'The academy will be closed for summer break from August 15th to August 28th. Classes will resume on August 29th.',
+      'The academy will be closed for a short break from August 15th to August 18th. Classes will resume on August 19th.',
   },
 ];
 
 export const courses = [
   {
-    title: 'Introduction to Computer Science',
+    title: 'Bank Job Coaching',
     description:
-      'A foundational course covering the principles of programming, algorithms, and data structures. Perfect for beginners.',
-    schedule: 'Mon, Wed, Fri | 10:00 AM - 11:30 AM',
+      'Comprehensive coaching for Bank probationary officer (PO) and clerk exams. We cover all subjects and provide extensive mock tests.',
+    schedule: 'Flexible timings, new batches every month',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'programming code',
+      hint: 'bank exam',
     },
   },
   {
-    title: 'Advanced Web Development',
+    title: 'SSC Job Coaching',
     description:
-      'Master modern web technologies including React, Next.js, and backend development with Node.js. Prerequisite: Intro to CS or equivalent experience.',
-    schedule: 'Tue, Thu | 1:00 PM - 3:00 PM',
+      'Preparation for Staff Selection Commission (SSC) exams like CGL, CHSL, and more. Our curriculum is aligned with the latest exam patterns.',
+    schedule: 'Morning and evening batches available',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'web design',
+      hint: 'government exam',
     },
   },
   {
-    title: 'Data Science & Analytics',
+    title: 'CAT/MAT Coaching',
     description:
-      'Learn to extract insights from data using Python, Pandas, and various machine learning libraries. Covers data visualization and statistical analysis.',
-    schedule: 'Mon, Wed | 2:00 PM - 4:00 PM',
+      'Intensive coaching for MBA entrance exams like CAT and MAT. Achieve your dream of getting into a top business school.',
+    schedule: 'Weekend and weekday batches',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'data charts',
+      hint: 'mba entrance',
     },
   },
   {
-    title: 'UI/UX Design Fundamentals',
+    title: 'CLAT Coaching',
     description:
-      'Explore the principles of user-centric design, wireframing, prototyping, and creating intuitive user interfaces.',
-    schedule: 'Fri | 9:00 AM - 12:00 PM',
+      'Prepare for the Common Law Admission Test (CLAT) with our expert faculty and comprehensive study material.',
+    schedule: 'After-school and weekend programs',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'design sketch',
+      hint: 'law books',
     },
   },
   {
-    title: 'Cybersecurity Essentials',
+    title: 'NDA/CDS Coaching',
     description:
-      'Understand the fundamentals of network security, ethical hacking, and defensive strategies to protect digital assets.',
-    schedule: 'Tue, Thu | 4:00 PM - 5:30 PM',
+      'Dedicated training for National Defence Academy (NDA) and Combined Defence Services (CDS) examinations. Physical training support included.',
+    schedule: 'Early morning batches',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'cyber security',
+      hint: 'defence academy',
     },
   },
   {
-    title: 'Mobile App Development',
+    title: 'Railway & LIC Exams',
     description:
-      'Build native mobile applications for iOS and Android using modern frameworks like Swift and Kotlin.',
-    schedule: 'Sat | 10:00 AM - 1:00 PM',
+      'Specialized coaching for various Railway Recruitment Board (RRB) and Life Insurance Corporation (LIC) exams.',
+    schedule: 'Flexible batch timings',
     image: {
       src: 'https://picsum.photos/600/400',
-      hint: 'mobile app',
+      hint: 'railway recruitment',
+    },
+  },
+  {
+    title: 'ADRE Coaching',
+    description:
+      'Focused coaching for the Assam Direct Recruitment Examination (ADRE) to help you secure a government job in Assam.',
+    schedule: 'Special batches for ADRE',
+    image: {
+      src: 'https://picsum.photos/600/400',
+      hint: 'assam recruitment',
     },
   },
 ];
 
 export const staff = [
   {
-    name: 'Dr. Evelyn Reed',
+    name: 'Mr. Rakesh Sharma',
     title: 'Founder & Head of Academy',
-    bio: 'With over 20 years of experience in technology and education, Dr. Reed founded Vision Academy to bridge the gap between academic learning and real-world skills.',
-    qualifications: 'Ph.D. in Computer Science',
-    avatar: 'https://picsum.photos/100/100',
-    hint: 'professional woman',
-  },
-  {
-    name: 'Mr. Samuel Chen',
-    title: 'Lead Instructor, Web Development',
-    bio: 'Samuel is a full-stack developer with a passion for teaching. He has worked with several tech giants and brings a wealth of industry knowledge to his classes.',
-    qualifications: 'M.S. in Software Engineering',
+    bio: 'With over 13 years of experience in coaching for competitive exams, Mr. Sharma founded Vision Academy to provide quality education and guidance to aspirants.',
+    qualifications: 'M.Sc. in Mathematics',
     avatar: 'https://picsum.photos/100/100',
     hint: 'professional man',
   },
   {
-    name: 'Ms. Isabella Rossi',
-    title: 'Instructor, UI/UX Design',
-    bio: 'Isabella is a renowned designer who believes in creating beautiful and functional digital experiences. Her work has been featured in major design publications.',
-    qualifications: 'B.A. in Graphic Design',
+    name: 'Mrs. Sunita Verma',
+    title: 'Lead Instructor, Bank & SSC',
+    bio: 'Sunita is an expert in Quantitative Aptitude and Reasoning. She has helped hundreds of students crack banking and SSC exams.',
+    qualifications: 'M.Com, B.Ed',
     avatar: 'https://picsum.photos/100/100',
-    hint: 'smiling woman',
+    hint: 'professional woman',
   },
   {
-    name: 'Mr. David Kim',
-    title: 'Instructor, Data Science',
-    bio: 'David is a data scientist who loves to solve complex problems. He specializes in machine learning models and big data analytics.',
-    qualifications: 'M.S. in Data Science',
+    name: 'Mr. Anil Kumar',
+    title: 'Instructor, CAT/MAT & CLAT',
+    bio: 'Anil specializes in Verbal Ability and Reading Comprehension. His unique teaching methods make learning English a breeze for students.',
+    qualifications: 'M.A. in English Literature',
+    avatar: 'https://picsum.photos/100/100',
+    hint: 'smiling man',
+  },
+  {
+    name: 'Mr. Sanjay Singh',
+    title: 'Instructor, Defence Exams',
+    bio: 'A retired army officer, Sanjay brings his real-world experience to guide students preparing for NDA and CDS examinations.',
+    qualifications: 'B.Sc, Ex-Army Officer',
     avatar: 'https://picsum.photos/100/100',
     hint: 'man glasses',
   },
@@ -122,22 +132,24 @@ export const staff = [
 
 export const websiteContentForFaq = `
 About Us:
-Vision Academy is a premier institution dedicated to providing top-tier education in the field of technology. Our mission is to empower the next generation of innovators, developers, and tech leaders with the skills and knowledge needed to excel in a rapidly evolving digital world. Founded in 2010 by Dr. Evelyn Reed, the academy has grown from a small group of passionate educators to a thriving community of learners and experts. Our core values are Excellence, Innovation, and Community. We believe in fostering a supportive learning environment where students can challenge themselves and achieve their full potential.
+Vision Academy is a premier institution in Barak Valley dedicated to providing top-tier coaching for competitive government and entrance exams. Our mission is to empower aspirants with the knowledge and skills needed to secure their dream job or admission. Founded 13 years ago, the academy has a proven track record of success with over 700+ students placed in government sectors and 300+ admissions to MBA programs through CAT/MAT. Our core values are Excellence, Dedication, and Student Success. We believe in fostering a supportive learning environment where students can achieve their full potential.
 
 Courses Offered:
-- Introduction to Computer Science: A foundational course covering the principles of programming, algorithms, and data structures. Perfect for beginners. Schedule: Mon, Wed, Fri | 10:00 AM - 11:30 AM.
-- Advanced Web Development: Master modern web technologies including React, Next.js, and backend development with Node.js. Prerequisite: Intro to CS or equivalent experience. Schedule: Tue, Thu | 1:00 PM - 3:00 PM.
-- Data Science & Analytics: Learn to extract insights from data using Python, Pandas, and various machine learning libraries. Covers data visualization and statistical analysis. Schedule: Mon, Wed | 2:00 PM - 4:00 PM.
-- UI/UX Design Fundamentals: Explore the principles of user-centric design, wireframing, prototyping, and creating intuitive user interfaces. Schedule: Fri | 9:00 AM - 12:00 PM.
-- Cybersecurity Essentials: Understand the fundamentals of network security, ethical hacking, and defensive strategies to protect digital assets. Schedule: Tue, Thu | 4:00 PM - 5:30 PM.
-- Mobile App Development: Build native mobile applications for iOS and Android using modern frameworks like Swift and Kotlin. Schedule: Sat | 10:00 AM - 1:00 PM.
+- Bank Jobs: Coaching for Bank PO and Clerk exams.
+- SSC Jobs: Preparation for SSC CGL, CHSL, and other exams.
+- CAT/MAT: For MBA aspirants aiming for top B-schools.
+- CLAT: For students aspiring to join National Law Universities.
+- NDA/CDS: For entry into the defence forces.
+- Railway Exams: Coaching for RRB exams.
+- LIC Exams: For jobs in the Life Insurance Corporation.
+- ADRE: Specialized coaching for Assam Direct Recruitment Examination.
 
 Contact Information:
-- Location: 123 Tech Avenue, Innovation City, 54321
-- Phone: (123) 456-7890
+- Location: 2nd Floor, Kusum Mansion, Hospital Road, Silchar-1
+- Phone: 9401811385, 8133868186
 - Email: admissions@visionacademy.edu
-For inquiries about enrollment, please contact the admissions email. For general questions, you can call our main line.
+For inquiries about enrollment and batch timings, please call us.
 
 Staff:
-Our team is composed of experienced professionals and educators, including Dr. Evelyn Reed (Founder & Head of Academy), Mr. Samuel Chen (Lead Instructor, Web Development), Ms. Isabella Rossi (Instructor, UI/UX Design), and Mr. David Kim (Instructor, Data Science). All our instructors have advanced degrees and significant industry experience.
+Our team is composed of experienced educators with a deep understanding of competitive exam patterns. They are dedicated to providing the best guidance to our students.
 `;

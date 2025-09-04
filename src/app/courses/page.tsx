@@ -14,12 +14,11 @@ export default function CoursesPage() {
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tight font-headline">
-            Explore Our Curriculum
+            Our Coaching Programs
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            From foundational concepts to advanced specializations, our
-            courses are designed to prepare you for a successful career in
-            tech.
+            We offer specialized coaching for a wide range of competitive exams
+            to help you secure your future.
           </p>
         </div>
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

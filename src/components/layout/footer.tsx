@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-2">
             <GraduationCap className="h-6 w-6 text-primary" />
-            <p className="text-lg font-bold">Vision Academy Hub</p>
+            <p className="text-lg font-bold">Vision Academy</p>
           </div>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Vision Academy. All rights reserved.
