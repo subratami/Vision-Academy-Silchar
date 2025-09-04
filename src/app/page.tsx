@@ -2,7 +2,13 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Bell, ArrowRight } from 'lucide-react';
+import {
+  Bell,
+  ArrowRight,
+  Target,
+  History,
+  HeartHandshake,
+} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -11,7 +17,7 @@ import {
   CardTitle,
   CardDescription,
 } from '@/components/ui/card';
-import { announcements, courses } from '@/lib/constants';
+import { announcements } from '@/lib/constants';
 import { useEffect, useState } from 'react';
 
 function AnnouncementDate({ date }: { date: string }) {
@@ -86,36 +92,70 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Featured Courses Section */}
-          <section>
-            <h2 className="text-3xl font-bold tracking-tight mb-6 font-headline">
-              Our Coaching Programs
-            </h2>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {courses.slice(0, 3).map((course, index) => (
-                <Card key={index} className="flex flex-col">
-                  <CardHeader className="p-0">
-                    <div className="relative aspect-video">
-                      <Image
-                        src={course.image.src}
-                        alt={course.title}
-                        fill
-                        className="rounded-t-lg object-cover"
-                        data-ai-hint={course.image.hint}
-                      />
-                    </div>
-                  </CardHeader>
-                  <CardContent className="flex-grow p-6 space-y-2">
-                    <CardTitle>{course.title}</CardTitle>
-                    <CardDescription>{course.description}</CardDescription>
-                  </CardContent>
-                  <div className="p-6 pt-0">
-                    <Button asChild variant="secondary" className="w-full">
-                      <Link href="/courses">Learn More</Link>
-                    </Button>
-                  </div>
-                </Card>
-              ))}
+          {/* About Us Section */}
+          <section className="space-y-12">
+            <div className="grid gap-8 md:grid-cols-2 md:gap-16 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tight font-headline">
+                  The Heart of Vision Academy Silchar
+                </h2>
+                <p className="mt-4 text-lg text-muted-foreground">
+                  We are a premier institution in Barak Valley, dedicated to
+                  providing top-tier coaching for competitive exams, empowering
+                  aspirants to achieve their career goals.
+                </p>
+              </div>
+              <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="https://picsum.photos/800/600"
+                  alt="Team working together"
+                  fill
+                  className="object-cover"
+                  data-ai-hint="students classroom"
+                />
+              </div>
+            </div>
+
+            <div className="grid gap-8 md:grid-cols-3">
+              <Card>
+                <CardHeader className="flex-row items-center gap-4">
+                  <Target className="w-10 h-10 text-primary" />
+                  <CardTitle>Our Mission</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    To empower students with the knowledge and skills needed to
+                    excel in competitive exams through expert guidance and
+                    comprehensive study materials.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader className="flex-row items-center gap-4">
+                  <History className="w-10 h-10 text-primary" />
+                  <CardTitle>Our History</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    With 13 years of excellence, Vision Academy Silchar has guided over
+                    700+ students to government jobs and 300+ to top MBA
+                    colleges.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader className="flex-row items-center gap-4">
+                  <HeartHandshake className="w-10 h-10 text-primary" />
+                  <CardTitle>Our Values</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    We believe in Excellence, Dedication, and Student Success,
+                    fostering a supportive environment for aspirants to achieve
+                    their potential.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </section>
         </div>
