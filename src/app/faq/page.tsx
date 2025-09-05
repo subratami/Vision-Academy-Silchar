@@ -1,4 +1,10 @@
-import FaqGenerator from '@/components/faq-generator';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
+import { faqData } from '@/lib/constants';
 
 export default function FaqPage() {
   return (
@@ -6,15 +12,28 @@ export default function FaqPage() {
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tight font-headline">
-            AI-Powered FAQ
+            Frequently Asked Questions
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Have a question? Our AI can help. Click the button below to
-            generate answers to common questions based on our website's
-            content.
+            Find answers to common questions about Vision Academy Silchar.
           </p>
         </div>
-        <FaqGenerator />
+        <div className="max-w-4xl mx-auto">
+          {faqData.length > 0 && (
+            <Accordion type="single" collapsible className="w-full">
+              {faqData.map((faq, index) => (
+                <AccordionItem key={index} value={`item-${index}`}>
+                  <AccordionTrigger className="text-lg font-semibold text-left">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-base">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          )}
+        </div>
       </div>
     </main>
   );

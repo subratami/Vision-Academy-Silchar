@@ -96,23 +96,25 @@ export const courses = [
   },
 ];
 
-export const websiteContentForFaq = `
-About Us:
-Vision Academy Silchar is a premier institution in Barak Valley dedicated to providing top-tier coaching for competitive government and entrance exams. Our mission is to empower aspirants with the knowledge and skills needed to secure their dream job or admission. Founded 13 years ago, the academy has a proven track record of success with over 700+ students placed in government sectors and 300+ admissions to MBA programs through CAT/MAT. Our core values are Excellence, Dedication, and Student Success. We believe in fostering a supportive learning environment where students can achieve their full potential.
-
-Courses Offered:
-- Bank Jobs: Coaching for Bank PO and Clerk exams.
-- SSC Jobs: Preparation for SSC CGL, CHSL, and other exams.
-- CAT/MAT: For MBA aspirants aiming for top B-schools.
-- CLAT: For students aspiring to join National Law Universities.
-- NDA/CDS: For entry into the defence forces.
-- Railway Exams: Coaching for RRB exams.
-- LIC Exams: For jobs in the Life Insurance Corporation.
-- ADRE: Specialized coaching for Assam Direct Recruitment Examination.
-
-Contact Information:
-- Location: 2nd Floor, Kusum Mansion, Hospital Road, Silchar-1
-- Phone: 9401811385, 8133868186
-- Email: visionacademy.silchar@gmail.com
-For inquiries about enrollment and batch timings, please call us.
-`;
+export const faqData = [
+  {
+    question: 'What is Vision Academy?',
+    answer: 'Vision Academy Silchar is a premier institution in Barak Valley dedicated to providing top-tier coaching for competitive government and entrance exams.',
+  },
+  {
+    question: 'What courses do you offer?',
+    answer: 'We offer coaching for Bank Jobs (PO, Clerk), SSC (CGL, CHSL), CAT/MAT, CLAT, NDA/CDS, Railway exams, LIC exams, and the Assam Direct Recruitment Examination (ADRE).',
+  },
+  {
+    question: 'What is the success rate of Vision Academy?',
+    answer: 'Over the last 13 years, we have helped over 700 students secure government jobs and over 300 students get into top MBA colleges.',
+  },
+  {
+    question: 'Where is Vision Academy located?',
+    answer: 'We are located at 2nd Floor, Kusum Mansion, Hospital Road, Silchar-1.',
+  },
+  {
+    question: 'How can I contact Vision Academy?',
+    answer: 'You can call us at 9401811385 or 8133868186, or email us at visionacademy.silchar@gmail.com.',
+  }
+];
