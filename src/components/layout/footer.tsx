@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import mainlogo from '@/components/Vision Academy Logo.png'
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-2">
             <Image
-              src="https://picsum.photos/40/40"
+              src={mainlogo}
               alt="Vision Academy Logo"
               width={24}
               height={24}

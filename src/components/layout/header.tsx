@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
+import mainlogo from '@/components/Vision Academy Logo.png'
 import {
   BookOpen,
   Home,
@@ -36,12 +37,11 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="https://picsum.photos/40/40"
+            src={mainlogo}
             alt="Vision Academy Logo"
             width={32}
             height={32}
             className="rounded-full"
-            data-ai-hint="logo"
           />
           <span className="font-bold">Vision Academy Silchar</span>
         </Link>
