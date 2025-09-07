@@ -1,5 +1,6 @@
 
 'use client';
+import aboutimg from "@/components/about.png"
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -112,7 +113,7 @@ export default function Home() {
               </div>
               <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="https://picsum.photos/800/600"
+                  src={aboutimg}
                   alt="Team working together"
                   fill
                   className="object-cover"

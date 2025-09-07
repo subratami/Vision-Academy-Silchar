@@ -1,0 +1,67 @@
+# Vision Academy Silchar
+
+A modern web application for Vision Academy Silchar, a premier coaching institute in Barak Valley dedicated to competitive exam preparation.
+
+## Overview
+
+Vision Academy Silchar offers coaching for various competitive exams including:
+- Bank PO/Clerk Exams
+- SSC (CGL, CHSL)
+- CAT/MAT
+- CLAT
+- NDA/CDS
+- Railway & LIC Exams
+- ADRE (Assam Direct Recruitment Examination)
+
+## Tech Stack
+
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **UI Components**: Custom components with Radix UI primitives
+- **Language**: TypeScript
+- **Image Hosting**: Remote image support for picsum.photos and placehold.co
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Features
+
+- 🎨 Modern, responsive design
+- 🌙 Light/Dark mode support
+- 📱 Mobile-friendly interface
+- 🎯 Course catalog with detailed information
+- 💬 FAQ section
+- 📞 Contact information
+- 📝 Dynamic content management
+
+## Project Structure
+
+```
+src/
+  ├── app/           # Next.js app router pages
+  ├── components/    # Reusable UI components
+  ├── hooks/         # Custom React hooks
+  ├── lib/          # Utility functions and constants
+  └── ai/           # AI-related functionality
+```
+
+## Contact
+
+For any inquiries, reach out to:
+- Phone: 9401811385 / 8133868186
+- Email: visionacademy.silchar@gmail.com
+- Address: 2nd Floor, Kusum Mansion, Hospital Road, Silchar-1
+
+## License
+
+All rights reserved © Vision Academy Silchar
