@@ -69,7 +69,7 @@ export default function Home() {
       <div className="py-12 lg:py-16">
         <div className="container px-4 md:px-6 space-y-16">
           {/* Announcements Section */}
-          <section>
+         {/* <section>
             <h2 className="text-3xl font-bold tracking-tight mb-6 font-headline">
               Latest Announcements
             </h2>
@@ -91,7 +91,7 @@ export default function Home() {
                 </Card>
               ))}
             </div>
-          </section>
+          </section> */}
 
           {/* About Us Section */}
           <section className="space-y-12">
