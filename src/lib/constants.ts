@@ -44,7 +44,7 @@ export const courses = [
     title: 'SSC Job Coaching',
     description:
       'Preparation for Staff Selection Commission (SSC) exams like CGL, CHSL, and more. Our curriculum is aligned with the latest exam patterns.',
-    schedule: 'Morning and evening batches available',
+    schedule: '',
     image: {
       src: ssc,
     },
