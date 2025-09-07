@@ -76,12 +76,11 @@ export function Header() {
                 <div className="flex flex-col space-y-4 p-4">
                   <Link href="/" className="flex items-center mb-4 gap-2">
                     <Image
-                      src="https://picsum.photos/40/40"
+                      src={mainlogo}
                       alt="Vision Academy Logo"
                       width={32}
                       height={32}
                       className="rounded-full"
-                      data-ai-hint="logo"
                     />
                     <span className="font-bold">Vision Academy Silchar</span>
                   </Link>

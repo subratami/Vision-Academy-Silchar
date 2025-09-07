@@ -35,7 +35,7 @@ export const courses = [
     title: 'Bank Job Coaching',
     description:
       'Comprehensive coaching for Bank probationary officer (PO) and clerk exams. We cover all subjects and provide extensive mock tests.',
-    schedule: 'Flexible timings, new batches every month',
+    schedule: '',
     image: {
       src: bank,
     },
@@ -53,7 +53,7 @@ export const courses = [
     title: 'CAT/MAT Coaching',
     description:
       'Intensive coaching for MBA entrance exams like CAT and MAT. Achieve your dream of getting into a top business school.',
-    schedule: 'Weekend and weekday batches',
+    schedule: '',
     image: {
       src: CATMAT,
     },
@@ -62,7 +62,7 @@ export const courses = [
     title: 'CLAT Coaching',
     description:
       'Prepare for the Common Law Admission Test (CLAT) with our expert faculty and comprehensive study material.',
-    schedule: 'After-school and weekend programs',
+    schedule: '',
     image: {
       src: clat,
     },
@@ -70,18 +70,17 @@ export const courses = [
   {
     title: 'NDA/CDS Coaching',
     description:
-      'Dedicated training for National Defence Academy (NDA) and Combined Defence Services (CDS) examinations. Physical training support included.',
-    schedule: 'Early morning batches',
+      'Dedicated training for National Defence Academy (NDA) and Combined Defence Services (CDS) examinations.',
+    schedule: '',
     image: {
       src: NDACDS,
-      hint: 'military soldiers',
     },
   },
   {
     title: 'Railway & LIC Exams',
     description:
       'Specialized coaching for various Railway Recruitment Board (RRB) and Life Insurance Corporation (LIC) exams.',
-    schedule: 'Flexible batch timings',
+    schedule: '',
     image: {
       src: railwayLIC,
       hint: 'railway train',
@@ -91,7 +90,7 @@ export const courses = [
     title: 'ADRE Coaching',
     description:
       'Focused coaching for the Assam Direct Recruitment Examination (ADRE) to help you secure a government job in Assam.',
-    schedule: 'Special batches for ADRE',
+    schedule: '',
     image: {
       src: adre,
     },
